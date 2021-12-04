@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+.navigation {
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--primary-color);
+  box-shadow: 5px 1px 10px red;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left span {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 18px;
+  /* padding-bottom: 23px; */
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  /* display: block; */
+  padding: 6px 11px;
+  border-radius: 8px;
+  transition: all 400ms ease-in-out;
+  
+}
+
+.nav-left ul li a:hover {
+  background-color: var(--main-bg-color);
+  color: white;
+  /* font-weight: bolder; */
+}
+
+  
+  .content {
+    height: 100%;
+    display: flex;
+    margin-top: 32px;
+    /* padding: 9px; */
+    position: relative;
+    color: #fff;
+    background-color: #000;
+    border-radius: 8px;
+  }
+  
+  .content::after {
+    content: "";
+    background-image: url("../img/anime\ banner.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: 100% 100%;
+    background-color:white;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.4;
+    border-radius: 12px;
+  }
+  
+  .content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: 1;
+  }
+  
+  .content-left *{
+    
+    text-shadow: 5px 5px 10px 10px var(--primary-color);
+  }
+
+  .content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    z-index: 100;
+    
+  }
+  
+  .content-right img {
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+  }
+
+  .content-OP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-OP img {
+    height: 355px;
+    border: 2px solid black;
+
+  }
+  
+  .home-articles {
+    padding-bottom: 10px;
+    background-color: rgb(248, 239, 239, 0.5);
+    margin-top: 23px;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+  }
+  
+  .year-box {
+    position: absolute;  
+    right: 0px;
+    top: 100px;
+    width: 234px;
+    height: 255px;
+    font-size: 18px;
+  }
+  
+  .year-box div {
+    margin: 12px 0px;
+  }
+  
+  .home-article {
+    display: flex;
+    margin: 25px 30px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #ffc4c4;
+  }
+  
+  .home-article img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 200px;
+  }
+  
+  .home-article-content {
+    align-self: center;
+    padding: 25px;
+  }
+  
+  .home-article-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .home-article-content a :hover{
+    color:var(--primary-color);
+  }
+  /* .home-articles{} */
+  .footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    background-color: #000;
+    margin-top: 30px;
+  }
+  
+.hk{
+  cursor: pointer;
+}
+
+  .footer a {
+    color: white;
+  }

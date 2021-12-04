@@ -1,0 +1,37 @@
+.contact-content{ 
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center; 
+    /* height: 100vh; */
+    height: 90vh;
+    margin-top: 32px;
+    padding: 1px;
+    position: relative; 
+    overflow: hidden;
+    outline: none;
+    padding-top: 30px;
+
+
+  }
+  
+  .contact-content::after {
+    content: "";
+    background-image: url("../img/sm.png");
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+  }
+
+  .form-box input{
+    outline: none;
+  }
+ 
+  textarea{
+    outline: none;
+    resize: none;
+  }
