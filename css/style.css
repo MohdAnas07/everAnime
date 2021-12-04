@@ -53,7 +53,6 @@
   color: white;
   /* font-weight: bolder; */
 }
-
   
   .content {
     height: 100%;
@@ -64,6 +63,7 @@
     color: #fff;
     background-color: #000;
     border-radius: 8px;
+    justify-content: space-around;
   }
   
   .content::after {
